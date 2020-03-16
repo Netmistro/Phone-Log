@@ -30,7 +30,7 @@ Partial Class frmCalls
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(502, 312)
         Me.Name = "frmCalls"
-        Me.Text = "frmCalls"
+        Me.Text = "Calls"
         Me.ResumeLayout(False)
 
     End Sub

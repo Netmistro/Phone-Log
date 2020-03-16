@@ -30,7 +30,7 @@ Partial Class frmForeignCompany
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(543, 256)
         Me.Name = "frmForeignCompany"
-        Me.Text = "frmForeignCompany"
+        Me.Text = "Foreign Company"
         Me.ResumeLayout(False)
 
     End Sub
