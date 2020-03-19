@@ -94,7 +94,7 @@ Partial Class frmEmpMtce
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(101, 78)
+        Me.Label1.Location = New System.Drawing.Point(106, 78)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(74, 18)
         Me.Label1.TabIndex = 9
@@ -123,7 +123,7 @@ Partial Class frmEmpMtce
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(57, 154)
+        Me.Label4.Location = New System.Drawing.Point(62, 154)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(118, 18)
         Me.Label4.TabIndex = 12
@@ -133,7 +133,7 @@ Partial Class frmEmpMtce
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(102, 192)
+        Me.Label5.Location = New System.Drawing.Point(107, 192)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(73, 18)
         Me.Label5.TabIndex = 13

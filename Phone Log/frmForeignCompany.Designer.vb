@@ -68,7 +68,7 @@ Partial Class frmForeignCompany
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(102, 192)
+        Me.Label5.Location = New System.Drawing.Point(101, 192)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(79, 18)
         Me.Label5.TabIndex = 26
@@ -78,7 +78,7 @@ Partial Class frmForeignCompany
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(57, 154)
+        Me.Label4.Location = New System.Drawing.Point(132, 154)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(48, 18)
         Me.Label4.TabIndex = 25
@@ -97,7 +97,7 @@ Partial Class frmForeignCompany
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(85, 116)
+        Me.Label2.Location = New System.Drawing.Point(90, 116)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(90, 18)
         Me.Label2.TabIndex = 23
@@ -107,7 +107,7 @@ Partial Class frmForeignCompany
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(103, 78)
+        Me.Label1.Location = New System.Drawing.Point(108, 78)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(72, 18)
         Me.Label1.TabIndex = 22
