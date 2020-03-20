@@ -22,8 +22,8 @@ Partial Class frmLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnPrice = New System.Windows.Forms.Button()
-        Me.btnBrowse = New System.Windows.Forms.Button()
+        Me.btnLogin = New System.Windows.Forms.Button()
+        Me.btnCancel = New System.Windows.Forms.Button()
         Me.lblUserName = New System.Windows.Forms.Label()
         Me.txtUsername = New System.Windows.Forms.TextBox()
         Me.txtPassword = New System.Windows.Forms.TextBox()
@@ -31,27 +31,27 @@ Partial Class frmLogin
         Me.lblHeader = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'btnPrice
+        'btnLogin
         '
-        Me.btnPrice.BackColor = System.Drawing.Color.DarkOrange
-        Me.btnPrice.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPrice.Location = New System.Drawing.Point(179, 148)
-        Me.btnPrice.Name = "btnPrice"
-        Me.btnPrice.Size = New System.Drawing.Size(90, 35)
-        Me.btnPrice.TabIndex = 3
-        Me.btnPrice.Text = "&Login"
-        Me.btnPrice.UseVisualStyleBackColor = False
+        Me.btnLogin.BackColor = System.Drawing.Color.DarkOrange
+        Me.btnLogin.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.Location = New System.Drawing.Point(179, 148)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(90, 35)
+        Me.btnLogin.TabIndex = 3
+        Me.btnLogin.Text = "&Login"
+        Me.btnLogin.UseVisualStyleBackColor = False
         '
-        'btnBrowse
+        'btnCancel
         '
-        Me.btnBrowse.BackColor = System.Drawing.Color.DarkOrange
-        Me.btnBrowse.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBrowse.Location = New System.Drawing.Point(277, 148)
-        Me.btnBrowse.Name = "btnBrowse"
-        Me.btnBrowse.Size = New System.Drawing.Size(90, 35)
-        Me.btnBrowse.TabIndex = 4
-        Me.btnBrowse.Text = "&Cancel"
-        Me.btnBrowse.UseVisualStyleBackColor = False
+        Me.btnCancel.BackColor = System.Drawing.Color.DarkOrange
+        Me.btnCancel.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.Location = New System.Drawing.Point(277, 148)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(90, 35)
+        Me.btnCancel.TabIndex = 4
+        Me.btnCancel.Text = "&Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = False
         '
         'lblUserName
         '
@@ -110,9 +110,9 @@ Partial Class frmLogin
         Me.Controls.Add(Me.lblHeader)
         Me.Controls.Add(Me.lblPassword)
         Me.Controls.Add(Me.txtPassword)
-        Me.Controls.Add(Me.btnPrice)
+        Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtUsername)
-        Me.Controls.Add(Me.btnBrowse)
+        Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.lblUserName)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "frmLogin"
@@ -122,8 +122,8 @@ Partial Class frmLogin
 
     End Sub
 
-    Friend WithEvents btnPrice As Button
-    Friend WithEvents btnBrowse As Button
+    Friend WithEvents btnLogin As Button
+    Friend WithEvents btnCancel As Button
     Friend WithEvents lblUserName As Label
     Friend WithEvents txtUsername As TextBox
     Friend WithEvents txtPassword As TextBox
