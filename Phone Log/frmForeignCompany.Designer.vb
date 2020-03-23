@@ -23,14 +23,14 @@ Partial Class frmForeignCompany
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblHeader = New System.Windows.Forms.Label()
-        Me.txtExtension = New System.Windows.Forms.TextBox()
-        Me.txtEmployeeName = New System.Windows.Forms.TextBox()
+        Me.txtPhone = New System.Windows.Forms.TextBox()
+        Me.txtName = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.lblEmployeeID = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.cmbEmployee = New System.Windows.Forms.ComboBox()
+        Me.cmbCompany = New System.Windows.Forms.ComboBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
@@ -48,21 +48,21 @@ Partial Class frmForeignCompany
         Me.lblHeader.TabIndex = 29
         Me.lblHeader.Text = "Welcome to ""Foreign Company"""
         '
-        'txtExtension
+        'txtPhone
         '
-        Me.txtExtension.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtExtension.Location = New System.Drawing.Point(184, 189)
-        Me.txtExtension.Name = "txtExtension"
-        Me.txtExtension.Size = New System.Drawing.Size(89, 24)
-        Me.txtExtension.TabIndex = 28
+        Me.txtPhone.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPhone.Location = New System.Drawing.Point(184, 189)
+        Me.txtPhone.Name = "txtPhone"
+        Me.txtPhone.Size = New System.Drawing.Size(89, 24)
+        Me.txtPhone.TabIndex = 28
         '
-        'txtEmployeeName
+        'txtName
         '
-        Me.txtEmployeeName.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmployeeName.Location = New System.Drawing.Point(184, 151)
-        Me.txtEmployeeName.Name = "txtEmployeeName"
-        Me.txtEmployeeName.Size = New System.Drawing.Size(216, 24)
-        Me.txtEmployeeName.TabIndex = 27
+        Me.txtName.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtName.Location = New System.Drawing.Point(184, 151)
+        Me.txtName.Name = "txtName"
+        Me.txtName.Size = New System.Drawing.Size(216, 24)
+        Me.txtName.TabIndex = 27
         '
         'Label5
         '
@@ -113,14 +113,14 @@ Partial Class frmForeignCompany
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Company"
         '
-        'cmbEmployee
+        'cmbCompany
         '
-        Me.cmbEmployee.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbEmployee.FormattingEnabled = True
-        Me.cmbEmployee.Location = New System.Drawing.Point(184, 74)
-        Me.cmbEmployee.Name = "cmbEmployee"
-        Me.cmbEmployee.Size = New System.Drawing.Size(220, 26)
-        Me.cmbEmployee.TabIndex = 21
+        Me.cmbCompany.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbCompany.FormattingEnabled = True
+        Me.cmbCompany.Location = New System.Drawing.Point(184, 74)
+        Me.cmbCompany.Name = "cmbCompany"
+        Me.cmbCompany.Size = New System.Drawing.Size(220, 26)
+        Me.cmbCompany.TabIndex = 21
         '
         'btnExit
         '
@@ -172,14 +172,14 @@ Partial Class frmForeignCompany
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(434, 311)
         Me.Controls.Add(Me.lblHeader)
-        Me.Controls.Add(Me.txtExtension)
-        Me.Controls.Add(Me.txtEmployeeName)
+        Me.Controls.Add(Me.txtPhone)
+        Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblEmployeeID)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.cmbEmployee)
+        Me.Controls.Add(Me.cmbCompany)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnSave)
@@ -192,14 +192,14 @@ Partial Class frmForeignCompany
     End Sub
 
     Friend WithEvents lblHeader As Label
-    Friend WithEvents txtExtension As TextBox
-    Friend WithEvents txtEmployeeName As TextBox
+    Friend WithEvents txtPhone As TextBox
+    Friend WithEvents txtName As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents lblEmployeeID As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents cmbEmployee As ComboBox
+    Friend WithEvents cmbCompany As ComboBox
     Friend WithEvents btnExit As Button
     Friend WithEvents btnDelete As Button
     Friend WithEvents btnSave As Button
